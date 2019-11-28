@@ -81,17 +81,3 @@ ioo.on('connection', (socket) => {
 server.listen(port, () =>{
     console.log(`Server is listening on port: `, port)
 })
-
-
-//let count = 0
-// ioo.on('connection', (socket) => {
-//     console.log('New connection ')
-
-//     // socket.emit('countUpdated', count)  //emit an event to the socket
-//     // socket.on('increment', () => {
-//     //     count++
-//     //     //socket.emit('countUpdated', count) //emit event to specific connection
-//     //     ioo.emit('countUpdated', count) //emit event to all connection
-
-//     // })
-// })
